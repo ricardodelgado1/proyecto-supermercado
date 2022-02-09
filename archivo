@@ -1,0 +1,117 @@
+	  <section class="contenedorformulario">
+
+				<form  id="frmbuscar" method="POST" action="">
+
+						<a href="formularioproductos.php">
+							<img src="imagenes/adicionar.png">
+						</a>
+
+						<label id="lblbuscar">Buscar</label>
+
+							<select id="selbuscar" name="selcampo">
+								<option value="todos">Todos</option>
+								<option value="codigo">Codigo</option>
+								<option value="nombre">Nombre</option>
+							</select>
+
+						<input type="text" name="txtbuscar" size="50" height="5px" class="campobuscar">
+
+						<button type="submit" name="btnbuscar" class="botonbuscar">
+							<img src="imagenes/lupa.png">
+						</button>
+				</form>
+				<br>
+
+				<table class="tabla">
+				 <tr id="titulo2prod">
+				 	
+
+				 	 <th id="codigo">
+				        codigo
+				     </th>		  
+				      <th  id="nombre">
+				        nombre
+				     </th>
+				     <th  id="fecha">
+				        fecha
+				     </th>
+				     <th  id="precio">
+				        precio
+				     </th>
+				     <th  id="descripcion">
+				        Descripcion
+				     </th>				     
+				 <tr>
+
+				<?php 
+
+				include_once ("funciones.php");
+
+				$con  = ConectarBD();
+
+				if (isset($_POST['btnbuscar']))
+				{
+				
+					$buscar = $_POST['txtbuscar'];
+					$campo  = $_POST['selcampo'];
+						
+					
+
+					if ($campo =="todos")
+					 {
+						$where = "";			
+					 }	
+					 else if ($campo =="codigo")
+					 {
+					 	$where = " WHERE prod_codigo LIKE'%$buscar%' ";
+					 }	
+					
+					 else if ($campo =="nombre")
+					 {
+					 	$where = " WHERE prod_nombre LIKE'%$buscar%' ";
+					 }
+				
+				 }
+
+				$sSQL = "SELECT * FROM productos".$where;
+
+				$datos = $con->query($sSQL);
+
+				foreach( $datos as $fila)
+				{
+
+				 echo '<tr id="contenido">';
+				 	echo '<td id="codigo">';
+				       echo $fila['prod_codigo'];
+				    echo '</td>';
+				    echo '<td id="nombre">';
+				       echo $fila['prod_nombre'];
+				    echo '</td>';
+				    echo '<td id="fecha">';
+				       echo $fila['prod_fecha'];
+				    echo '</td>';
+				    echo '<td id="precio">';
+				       echo $fila['prod_precio'];
+				    echo '</td>';
+				    echo '<td id="descripcion">';
+				       echo $fila['prod_descripcion'];
+				    echo '</td>';
+				    echo '<td class="iconoadicionar">';
+				       echo '<a href="modificar_productos.php?codigo='.$fila['prod_codigo'].'"><img class="imgicon" src="imagenes/editar.png" > </a>';
+				    echo '</td>';
+				    echo '<td class="iconoadicionar">';
+				       echo '<a href="eliminar_productos.php?codigo='.$fila['prod_codigo'].'"><img class="imgicon" src="imagenes/eliminar.png" > </a>';
+				    echo '</td>';
+
+				 echo '</tr>';
+
+				}
+
+				DesconectarBD($con);
+
+			?>
+
+		</table>
+
+
+      </section>

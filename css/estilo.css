@@ -1,0 +1,931 @@
+
+.imgicon{
+	background:#cecece;
+}
+#mycarousel{
+	width: 690px;
+	height: 510px;
+	border-radius: 20px;
+
+}
+
+
+
+.cuerpo{
+	background:#cecece;
+}
+h7{
+	color: orange;
+}
+
+ /*----CSS---inicio--del--menu------*/
+
+#menu 
+{  
+	text-align: center;
+    font-size: 15px;
+    width: 1300px;
+    margin: 18px auto 12px 75px;
+    background: blue;
+
+}
+#menu2
+{  
+	text-align: center;
+    font-size: 15px;
+    width: 1300px;
+    background: blue;
+    margin: 18px auto 12px 75px;
+    background: blue;
+
+}
+#menu ul 
+{
+ list-style-type: none;
+
+}
+
+#menu2 ul 
+{
+ list-style-type: none;
+
+}
+#menu ul li.nivel1
+{
+	float: left;
+	width: 220px;
+
+
+}
+
+#menu2 ul li.nivel1
+{
+	float: left;
+	width: 220px;
+
+
+}
+#menu ul li a 
+{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background-color: #424242;
+	padding: 7px;
+	position: relative;
+	margin-left: 30px;
+	font-family: arial;
+	border-radius: 10px;
+}
+
+#menu2 ul li a 
+{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background-color: #424242;
+	padding: 7px;
+	position: relative;
+	margin-left: 30px;
+	font-family: arial;
+	border-radius: 10px;
+}
+#menu ul li:hover 
+{
+	position: relative;
+}
+
+#menu2 ul li:hover 
+{
+	position: relative;
+}
+#menu ul li a:hover, #menu ul li:hover a.nivel1 
+{
+	background-color: #A4A4A4;
+	color: #000;
+	box-shadow: 0 4px 6px rgba(0,0,130,.7);
+	position: relative;
+	-webkit-transform:scale(1);
+    -webkit-transition: -webkit-transform 0.1s ease-in-out 0s;
+}
+
+#menu2 ul li a:hover, #menu2 ul li:hover a.nivel1 
+{
+	background-color: #A4A4A4;
+	color: #000;
+	box-shadow: 0 4px 6px rgba(0,0,130,.7);
+	position: relative;
+	-webkit-transform:scale(1);
+    -webkit-transition: -webkit-transform 0.1s ease-in-out 0s;
+}
+
+#menu2 ul li a.nivel1 
+{
+	display: block!important;
+	display: none;
+	position: relative;
+}
+
+#menu2 ul li ul 
+{
+	display: none;
+}
+
+#menu2 ul li a:hover ul, #menu2 ul li:hover ul 
+{
+	display: block;
+	position: absolute;left: 0px;
+}
+
+#menu2 ul li ul li a 
+{
+	width: 170px;
+	padding: 8px 0px 8px 0px;
+	border-top-color: #000;
+	
+}
+
+#menu2 ul li ul li a:hover 
+{
+	border-top-color: #000;
+	position: relative;
+}
+
+table.falsa 
+{
+	border-collapse:collapse;
+	border:0px;
+	float: left;
+	position: relative;
+}
+.boton{
+	font-size: 17px;
+}
+
+
+.menu-item:hover
+{
+	-webkit-transform:scale(1.05);
+    -webkit-transition: -webkit-transform 0.1s ease-in-out 0s;
+    
+}
+/*----CSS---finalizasion del menu____*/
+
+
+/*INICIO ESTILOS FORMULARIO*/
+
+
+h1{
+	text-align: center;
+	color: #2C459D;
+}
+h2{
+	text-align: center;	
+}
+form{
+	
+	margin: 0 auto;
+	width: 870px;
+
+}
+
+fieldset
+{
+	width: 870px;
+	border-radius: 25px;
+	background: #A0A2AB;
+	border: 0px solid #888888;
+	text-align: center;
+	text-decoration: none;
+}
+#titulo{
+	text-decoration: none;
+}
+
+.campo1
+{
+    border-radius: 5px;
+    border:thin solid #F60;
+    height: 60px;
+    color: #000;
+    background:  #D6D9DC;
+    text-decoration: none;
+    transition:all 1s ease-in-out;
+}
+input:focus
+{
+    background: #DCEAEC;
+	transition:all 1s ease-in-out;
+}
+:focus{
+	box-shadow: .1em .1em .5em rgba(255,102,0,.5);
+	outline: thin solid skyblue;
+	border-radius: 5px;
+} 
+.campo1:hover
+{
+    background: skyblue;
+    
+}
+#imgsub{
+	height: 30px;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 3px 0px 0px 0px;
+	width: 335px;
+
+}
+}
+.campo2
+{
+	border-radius: 5px;
+}
+.titulo
+{
+	margin: 13px 0px 5px 15px;
+	width: 150px;
+	font-family: arial;
+	display: inline-block;
+}
+.titulo2
+{
+	margin: 15px 0px 0px 10px;
+	font-family: arial;
+}
+.campo
+{
+	height: 25px;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 10px 0px 0px 0px;
+	width: 300px;
+
+}
+.camponumero{
+	height: 27px;
+	padding: 4px;
+    border-radius:5px;
+    margin: 10px 0px 0px 0px;
+
+}
+.camposele
+{
+	height: 20px;
+	padding: 0px;
+    border-radius:5px;
+    margin: 10px 0px 0px 0px;
+
+}
+.campofec
+{
+	height: 25px;
+	padding: 0px 5px 0px 5px;
+    border-radius:5px;
+    margin: 10px 0px 0px 0px;
+
+}
+.campomod
+{
+	height: 8px;
+	padding: 8px;
+    border-radius:5px;
+    margin: 10px ;
+
+}
+.campomodsel
+{
+	height: 20px;
+	padding: 0px 5px 0px 5px;
+    border-radius:5px;
+    margin: 10px ;
+
+}
+.campousuario
+{
+	height: 7px;
+	padding: 10px;
+    border-radius:5px;
+    margin:  0px;
+    
+}
+.campo1
+{
+	height: 25px;
+	width: 120px;
+	list-style: none;
+	border: 2px solid;
+	margin: 10px;
+}
+
+
+.contenedorimagen
+{
+    
+   margin: 5px auto 5px 275px ;
+}
+.imageninicio
+{
+	width: 800px;
+	height: 200px;
+	border-radius: 10px;
+}
+
+
+table
+{
+	margin: 10px auto;
+	
+}
+div {
+	margin: 5 0 0 30;
+	width: 500px;
+	text-align: justify;
+	border: blue;
+}
+div label {
+  width: 14%;
+  float: left;
+}
+
+footer{
+	font-size: 20px;
+	background-color: #A4A4A4;
+	height: 160px;
+	width: 1080px;
+	margin-left: 20px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	color: black;
+	border-radius: 25px;
+	padding: 30px;
+}
+.peque{
+	color: black;
+}
+
+/*FIN ESTILOS FORMULARIO*/
+/*INICIO ESTILOS INICIO DE SESION*/
+
+.contenedorpaginainicio1{
+	width: 600px;
+	height: 130px;
+	border-radius: 25px;
+	background-color: #A4A4A4;
+}
+.contenedorpaginainicio2{
+	width: 600px;
+	margin-top: 15px;
+	height: 130px;
+	border-radius: 25px;
+	background-color: #A4A4A4;
+}
+.vinculoinicio2
+{
+background: red;
+width: 600px;
+}
+.titulopaginainicio{
+	text-align: center;
+	color: black;
+	margin-top: 50px;
+	font-size: 26px;
+	border-color: red;
+	display: inline-block;
+
+}
+.imagenpaginainicio{
+	display: inline-block;
+}
+
+/*FIN ESTILOS INICIO DE SESION*/
+/*INICIO ESTILOS PAGINA DE INFORMACION DE INICIO*/
+
+.tituloinicio1
+{
+	display: inline-left;
+	display: inline-block;
+	color: #2E2E2E;
+	font-size: 64px;
+	
+}
+
+.tituloinicio2
+{
+	display: inline-block;
+	color: #2E2EFE;
+	font-size: 64px;
+	
+}
+
+.tituloinicio3
+{
+	display: inline-block;
+	font-size: 10px;
+	color:#000;
+
+
+}
+.contenedorinicio1{
+	width: 1080px;
+	background: #A4A4A4;
+	margin-left:10px;
+	margin-top: 10px;
+	height: 170px;
+	border-radius: 25px;
+	display: inline-block;
+	
+}
+#nuevousu{
+	text-decoration: none;
+}
+
+
+
+#ingresar{
+	margin-left: 100px;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+}
+.iconingresar{
+	display: inline-block;
+}
+#contenedorbienvenido1{
+	background: #A4A4A4;
+	width: 1075px;
+	border-radius: 25px;
+	margin-left: 5px;
+	margin-top: 90px;
+}
+#contenedorbienvenido1-2{
+    padding: 10px;
+}
+.titulobienvenido{
+	text-align: left;
+	color: white;
+}
+.titulobienvenido:hover{
+	text-align: left;
+	color: #3336fc;
+}
+#img1{
+	width: 340px;
+	height: 180px;
+	margin-bottom: 10px;
+}
+#img2{
+	width: 700px;
+	height: 540px;
+}
+#img3{
+	width: 690px;
+	text-align: center;
+	color: blue;
+	height: 500px;
+}
+#img3:hover{
+	width: 690px;
+	text-align: center;
+	color: black;
+	height: 500px;
+}
+#myCarousel{
+	width: 700px;
+	background: black;
+	height: 540px;
+	border-radius: 20px;
+}
+#Carousel{
+	width: 700px;
+	background: black;
+	height: 540px;
+	border-radius: 20px;
+}
+#contenedorbienvenido1-3{
+	background: #3336fc;
+	height: 150px;
+	border-radius: 0px 0px 25px 25px;
+	text-align: center;
+}
+#contenedorbienvenido1-3:hover{
+	background: #424242;
+	height: 150px;
+	border-radius: 0px 0px 25px 25px;
+	text-align: center;
+}
+.titulobienvenido2{
+	text-align: center;
+	margin-top: 50px;
+	color: white;
+}
+
+
+#contenedorbienvenido2{
+	background: #A4A4A4;
+	text-decoration: none;
+	width: 1075px;
+	border-radius: 25px;
+	margin-left: 5px;
+	margin-top: 40px;
+}
+#contenedorservicios2{
+	background: #cecece;
+	text-decoration: none;
+	width: 1075px;
+	border-radius: 25px;
+	margin-left: 5px;
+	margin-top: 40px;
+}
+#contenedorbienvenido2-1{
+	padding: 10px;
+}
+#contenedorservicios2-1{
+	padding: 20px;
+	background: #A4A4A4;
+	border-radius: 25px;
+	width: 680px;
+}
+#contenedorservicios2-2{
+	padding: 20px;
+	width: 375px;
+	border-radius: 25px;
+	margin: 0px 0px 0px 20px;
+	background: #A4A4A4;
+}
+.titulobienvenido3{
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+}
+.titulobienvenido3:hover{
+	text-align: center;
+	color: #3336fc;
+	margin-top: 10px;
+
+}
+.titulobienvenido3:active{
+	text-align: center;
+	color: #fff;
+	margin-top: 10px;
+
+}
+.parrafo{
+	color: white;
+	text-align: center;
+	vertical-align: center;
+}
+
+
+/*FIN DE PAGINA DE INFORMACION DE INICIO*/
+/*INICIO ESTILOS PAGINA DE INFORMACION DE SOBRE NOSOTROS*/
+#contenedorsobrenosotros1{
+	display: inline-block;
+	width: 1075px;
+	height: 730px;
+	background-color:#A4A4A4;
+	margin-top: 30px;
+	margin-left: 5px;
+	border-radius: 25px;
+
+	
+}
+
+#contenedorsobrenosotros1-1{
+	display: inline-block;
+	width: 500px;
+	height: 600px;
+	background-color: #A4A4A4;
+	margin-top: 20px;
+	border-radius: 25px;
+	margin-left: 25px;
+	
+}
+
+.imagensobrenosotros1{
+	margin-left: 30px;
+	width: 400px;
+	border-radius: 30px;
+}
+.imagensobrenosotros2{
+	margin-left: 50px;
+	width: 550px;
+	height: 280px;
+	border-radius: 30px;
+}
+.titulosobrenosotros{
+	text-align: left;
+	margin-left: 50px;
+	margin-top: 20px;
+	color: white;
+}
+#contenedorsobrenosotros1-2{
+    padding: 10px;
+    width: 300px;
+}
+#titulomision{
+	text-align: center;
+	margin-left: 5px;
+	width: 450px;
+}
+#titulomision2{
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 20px;
+	width: 400px;
+}
+#parrafosobre{
+	color: white;
+	background: black;
+	opacity: .50;
+	width: 430px;
+	margin-right: 120px;
+}
+
+
+/*FIN DE PAGINA DE INFORMACION DE INICIO*/
+/*INICIO ESTILOS PAGINA SERVICIOS*/
+
+.tituloservicios{
+	text-align: left;
+	margin-left: 70px;
+	margin-top: 20px;
+	color: white;
+}
+#articuloservicios{
+	text-align: center;
+	font-size: 17px;
+}
+/*FIN ESTILOS PAGINA SERVICIOS*/
+
+/*INICIO ESTILOS PAGINA CONTACTOS*/
+.mapa{
+	width: 1080px;
+	height: 450px;
+	border-radius: 25px;
+	margin-top: 90px;
+}
+iframe{
+	border-radius: 25px;
+	background: silver;
+}
+#contenedorcon1
+{
+	background: #A4A4A4;
+	width: 1080px;
+	height: 700px;
+	margin-top: 30px;
+	border-radius: 20px;
+}
+#contenedorcon1-1
+{
+text-align: center;
+padding: 20px;
+width: 330px;
+	
+}
+#contenedorcon1-2
+{
+border-radius: 20px;
+width: 700px;
+height: 600px;	
+}
+.titulofielset{
+	text-align: left;
+	margin-left: 10px;
+	width: 400px;
+	margin-top: 10px;
+}
+.for-contacto{
+	text-align: left;
+	width: 500px;
+}
+.campogrande
+{
+	height: 27px;
+	padding: 10px;
+	border-radius: 20px;
+	margin: 10px 0px 0px 10px;
+	text-align: top;
+	table-layout: 5;
+	resize:none;
+	width: 500px;
+	height: 300px;
+
+}
+.campogrande:focus{
+	background: #DCEAEC;
+	transition:all 1s ease-in-out;
+}
+
+.enviar{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.titulocontactofinal{
+	text-align: center;
+	
+	margin-bottom: 20px;
+}
+.titulocontactofinal2{
+	text-align: left;
+	margin-left: 95px;
+	margin-bottom: 20px;
+}
+.contenedorfinal{
+	background:#A4A4A4;
+	width: 1080px;
+	margin-left: 10px;
+	height: 160px;
+	border-radius: 20px;
+	margin-top: 30px;
+	padding: 20px 0px 0px 120px;
+}
+.imagen2{
+	height: 120px;
+	margin-left: 20px;
+	border-radius: 20px;
+}
+/*FIN ESTILOS PAGINA SERVICIOS*/
+/*INCIO DE ICONOS*/
+.iconos
+{
+	font-size: 24px;
+	display: inline-block;
+	margin: 3px 3px 3px 3px;
+	cursor: pointer;
+	
+}
+.iconos:hover{
+
+	-webkit-transform:scale(1.2);
+	-webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s;
+	
+}
+.icono{
+	cursor: pointer;
+}
+/*FIN DE ICONOS*/
+/*INCIO DEL SISTEMA PRODUCTOS*/
+#titulo2prod{
+  background-color: #424242;
+  color: #fff;
+
+   line-height: 30px;
+}
+#codigo
+{
+	width: 65px;
+	text-align:center;
+	 border-radius: 5px;
+
+}
+#nombre
+{
+	width: 170px;
+	border-radius: 5px;
+	text-align: center;
+}
+#imgbase{
+	height:70px;
+	border-radius: 20px;
+	width:120px;
+	padding: 5px;
+}
+#imagen
+{
+	width: 130px;
+	border-radius: 5px;
+	text-align: center;
+}
+#fecha
+{
+	width: 100px;
+	border-radius: 5px;
+	text-align: center;
+}
+#precio
+{
+	width: 170px;
+	border-radius: 5px;
+	text-align: center;
+}
+#descripcion
+{
+	width: 250px;
+	border-radius: 5px;
+	text-align: center;
+}
+#contenido
+{
+	background-color: gray;
+	color: black;
+	
+}
+#contenido:hover
+{
+	background-color: white;
+}
+
+#frmbuscar{
+	background: gray;
+	margin-top: 40px;
+	width: 630px;
+	padding: 2px;
+	border-radius: 5px;
+}
+.botonbuscar{
+	border-radius: 8px;
+}
+#selbuscar{
+	border-radius: 8px;
+}
+
+/*FIN DEL SISTEMA PRODUCTOS*/
+/*INCIO DEL SISTEMA USUARIOS SERVICIO*/
+#documento
+{
+	width: 150px;
+	border-radius: 5px;
+	margin: 5px;
+	text-align: center;
+}
+#apellidos
+{
+	width: 170px;
+	border-radius: 5px;
+	margin: 5px;
+	text-align: center;
+}
+#nombres
+{
+	width: 170px;
+	border-radius: 5px;
+	margin: 5px;
+	text-align: center;
+}
+#direccion
+{
+	width: 170px;
+	border-radius: 5px;
+	margin: 7px;
+	text-align: center;
+}
+#cargo{
+	width: 170px;
+	border-radius: 5px;
+	margin: 7px;
+	text-align: center;
+}
+#telefono
+{
+	width: 170px;
+	height: 30px;
+	border-radius: 5px;
+	margin: 5px;
+	text-align: center;
+}
+#usuario
+{
+	margin-right: 210px;
+}
+
+/*FIN DEL SISTEMA USUARIOS DEL SERVICIO*/
+/*INICIO DE GALERIA*/
+#contenedorgaleria2{
+	display: inline-block;
+	width: 1075px;
+	height: 930px;
+	background-color: #A4A4A4;
+	margin-top: 30px;
+	margin-left: 5px;
+	border-radius: 25px;
+
+	
+}
+#contenedorgaleria3{
+	display: inline-block;
+	width: 1075px;
+	padding: 10px;
+	background-color:#A4A4A4;
+	margin-top: 30px;
+	margin-left: 5px;
+	border-radius: 25px;
+
+	
+}
+#titulogaleria{
+	text-align: left;
+	margin-left: 20px;
+}
+#imagenpro{
+	border-radius: 15px;
+	width: 123px;
+	height: 80px;
+}
+#imgsis{
+	border-radius: 20px;
+
+}
+
+/*FIN DE GALERIA*/
